@@ -7,7 +7,7 @@ const path = require("path");
 const { downloadImageFromUnsplash } = require("./getImageUnsplash");
 
 const credential = { appState: JSON.parse(fs.readFileSync('appstate.json', 'utf-8')) };
-const prefix = "!"; // Customize the prefix as desired
+const prefix = "😘"; // Customize the prefix as desired
 
 // Create a bot instance
 login(credential, (err, api) => {
